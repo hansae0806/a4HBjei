@@ -1,14 +1,38 @@
-<h2>영어 퀴즈 시작</h2>
-<form method="POST" action="/start">
-  <label>주제 선택:</label><br>
-  <input type="radio" name="topic" value="grammar" checked> Grammar
-  <input type="radio" name="topic" value="vocab"> Vocab
-  <input type="radio" name="topic" value="idioms"> Idioms<br><br>
-
-  <label>난이도 선택:</label><br>
-  <input type="radio" name="level" value="easy" checked> Easy
-  <input type="radio" name="level" value="medium"> Medium
-  <input type="radio" name="level" value="hard"> Hard<br><br>
-
-  <input type="submit" value="퀴즈 시작">
-</form>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>퀴즈 시작</title>
+    <!-- Bootstrap CSS 추가 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+            max-width: 500px;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <h1 class="mb-4 text-center">퀴즈에 오신 것을 환영합니다!</h1>
+         <form action="{{ url_for('start_quiz') }}" method="post">
+             <div class="mb-3">
+                 <label for="topic" class="form-label">토픽</label>
+                 <input type="text" class="form-control" id="topic" name="topic" placeholder="예: 역사, 과학" required>
+             </div>
+             <div class="mb-3">
+                 <label for="level" class="form-label">난이도</label>
+                 <input type="text" class="form-control" id="level" name="level" placeholder="예: 초급, 중급, 고급" required>
+             </div>
+             <button type="submit" class="btn btn-primary w-100">퀴즈 시작</button>
+         </form>
+    </div>
+</body>
+</html>
