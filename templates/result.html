@@ -1,0 +1,17 @@
+<h2>퀴즈 완료!</h2>
+<p>점수: {{ score }} / {{ total }}</p>
+
+<h3>맞은 문제</h3>
+{% for a in correct %}
+  <p><strong>Q:</strong> {{ a.question }}<br>
+  <strong>정답:</strong> {{ a.correct_answer }}</p>
+  <hr>
+{% endfor %}
+
+<h3>틀린 문제</h3>
+{% for a in wrong %}
+  <p><strong>Q:</strong> {{ a.question }}<br>
+  <strong>선택:</strong> {{ a.user_answer }}<br>
+  <strong>정답:</strong> {{ a.correct_answer }}</p>
+  <hr>
+{% endfor %}

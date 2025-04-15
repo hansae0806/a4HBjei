@@ -1,0 +1,9 @@
+<h2>문제 {{ index }} / {{ total }}</h2>
+<p>{{ q.question }}</p>
+<form method="POST">
+  {% for opt in q.options %}
+    <input type="radio" name="option" value="{{ opt }}" required> {{ opt }}<br>
+  {% endfor %}
+  <br>
+  <input type="submit" value="제출">
+</form>
