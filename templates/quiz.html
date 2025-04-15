@@ -1,9 +1,39 @@
-<h2>문제 {{ index }} / {{ total }}</h2>
-<p>{{ q.question }}</p>
-<form method="POST">
-  {% for opt in q.options %}
-    <input type="radio" name="option" value="{{ opt }}" required> {{ opt }}<br>
-  {% endfor %}
-  <br>
-  <input type="submit" value="제출">
-</form>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>퀴즈 진행 중</title>
+    <!-- Bootstrap CSS 추가 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e9ecef;
+        }
+        .container {
+            margin-top: 50px;
+            max-width: 600px;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <h2 class="mb-3">Question {{ index }} / {{ total }}</h2>
+         <p class="mb-4">{{ q.question }}</p>
+         <form method="post">
+             <div class="mb-3">
+                 {% for option in q.options %}
+                     <div class="form-check mb-2">
+                         <input class="form-check-input" type="radio" name="option" id="option{{ loop.index }}" value="{{ option }}" required>
+                         <label class="form-check-label" for="option{{ loop.index }}">{{ option }}</label>
+                     </div>
+                 {% endfor %}
+             </div>
+             <button type="submit" class="btn btn-success">다음</button>
+         </form>
+    </div>
+</body>
+</html>
