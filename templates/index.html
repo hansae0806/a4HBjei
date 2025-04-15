@@ -1,38 +1,61 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>퀴즈 시작</title>
-    <!-- Bootstrap CSS 추가 -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
-        .container {
-            margin-top: 50px;
-            max-width: 500px;
-            padding: 30px;
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>영어 퀴즈 시작</title>
+  <!-- Bootstrap CSS 추가 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      padding-top: 40px;
+    }
+    .quiz-container {
+      max-width: 500px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-         <h1 class="mb-4 text-center">퀴즈에 오신 것을 환영합니다!</h1>
-         <form action="{{ url_for('start_quiz') }}" method="post">
-             <div class="mb-3">
-                 <label for="topic" class="form-label">토픽</label>
-                 <input type="text" class="form-control" id="topic" name="topic" placeholder="예: 역사, 과학" required>
-             </div>
-             <div class="mb-3">
-                 <label for="level" class="form-label">난이도</label>
-                 <input type="text" class="form-control" id="level" name="level" placeholder="예: 초급, 중급, 고급" required>
-             </div>
-             <button type="submit" class="btn btn-primary w-100">퀴즈 시작</button>
-         </form>
-    </div>
+  <div class="quiz-container">
+    <h2 class="mb-4 text-center">영어 퀴즈 시작</h2>
+    <form method="POST" action="/start">
+      <div class="mb-3">
+        <label class="form-label">주제 선택:</label><br>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="topic" id="grammar" value="grammar" checked>
+          <label class="form-check-label" for="grammar">Grammar</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="topic" id="vocab" value="vocab">
+          <label class="form-check-label" for="vocab">Vocab</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="topic" id="idioms" value="idioms">
+          <label class="form-check-label" for="idioms">Idioms</label>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label">난이도 선택:</label><br>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="level" id="easy" value="easy" checked>
+          <label class="form-check-label" for="easy">Easy</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="level" id="medium" value="medium">
+          <label class="form-check-label" for="medium">Medium</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="level" id="hard" value="hard">
+          <label class="form-check-label" for="hard">Hard</label>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">퀴즈 시작</button>
+    </form>
+  </div>
 </body>
 </html>
