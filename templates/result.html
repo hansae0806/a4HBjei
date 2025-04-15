@@ -1,52 +1,54 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>퀴즈 결과</title>
-    <!-- Bootstrap CSS 추가 -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f1f3f5;
-        }
-        .container {
-            margin-top: 50px;
-            max-width: 700px;
-            padding: 30px;
-            background-color: #ffffff;
-            border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-        }
-        .answer-box {
-            padding: 15px;
-            border-radius: 5px;
-            margin-bottom: 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>퀴즈 완료!</title>
+  <!-- Bootstrap CSS 추가 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f1f3f5;
+      padding-top: 40px;
+    }
+    .result-container {
+      max-width: 700px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .result-item {
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-         <h2 class="mb-3">퀴즈 결과</h2>
-         <p class="mb-4">점수: <strong>{{ score }}</strong> / {{ total }}</p>
+  <div class="result-container">
+    <h2 class="mb-4">퀴즈 완료!</h2>
+    <p class="mb-4">점수: {{ score }} / {{ total }}</p>
 
-         <h4>정답 확인</h4>
-         {% for ans in correct %}
-             <div class="answer-box alert alert-success">
-                 <strong>문제:</strong> {{ ans.question }}<br>
-                 <strong>정답:</strong> {{ ans.correct_answer }}
-             </div>
-         {% endfor %}
+    <h3>맞은 문제</h3>
+    {% for a in correct %}
+      <div class="result-item bg-success text-white">
+        <p><strong>Q:</strong> {{ a.question }}<br>
+        <strong>정답:</strong> {{ a.correct_answer }}</p>
+      </div>
+    {% endfor %}
 
-         {% for ans in wrong %}
-             <div class="answer-box alert alert-danger">
-                 <strong>문제:</strong> {{ ans.question }}<br>
-                 <strong>정답:</strong> {{ ans.correct_answer }}<br>
-                 <strong>내 답:</strong> {{ ans.user_answer }}
-             </div>
-         {% endfor %}
-         <div class="mt-4">
-             <a href="{{ url_for('index') }}" class="btn btn-primary">처음으로</a>
-         </div>
+    <h3>틀린 문제</h3>
+    {% for a in wrong %}
+      <div class="result-item bg-danger text-white">
+        <p><strong>Q:</strong> {{ a.question }}<br>
+        <strong>선택:</strong> {{ a.user_answer }}<br>
+        <strong>정답:</strong> {{ a.correct_answer }}</p>
+      </div>
+    {% endfor %}
+    <div class="mt-4">
+      <a href="/" class="btn btn-primary">처음으로</a>
     </div>
+  </div>
 </body>
 </html>
