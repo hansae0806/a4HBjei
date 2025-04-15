@@ -3,16 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <title>랭킹</title>
+  <!-- Bootstrap CSS 추가 -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background-color: #e9ecef;
+      background-color: #f8f9fa;
       padding-top: 40px;
     }
     .ranking-container {
-      max-width: 600px;
+      max-width: 700px;
       margin: auto;
       background-color: #ffffff;
       padding: 30px;
       border-radius: 8px;
-      box-shadow: 0 0 15px rgba(0
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="ranking-container">
+    <h2 class="mb-4 text-center">퀴즈 랭킹</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>순위</th>
+          <th>이름</th>
+          <th>주제</th>
+          <th>난이도</th>
+          <th>점수</th>
+          <th>총 문제 수</th>
+          <th>등록 시간</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for entry in entries %}
+        <tr>
+          <td>{{ loop.index }}</td>
+          <td>{{ entry.username }}</td>
+          <td>{{ entry.topic }}</td>
+          <td>{{ entry.level }}</td>
+          <td>{{ entry.score }}</td>
+          <td>{{ entry.total }}</td>
+          <td>{{ entry.timestamp }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <div class="text-center">
+      <a href="/" class="btn btn-primary">처음으로</a>
+    </div>
+  </div>
+</body>
+</html>
