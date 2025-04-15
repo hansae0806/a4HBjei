@@ -46,8 +46,16 @@
         <strong>정답:</strong> {{ a.correct_answer }}</p>
       </div>
     {% endfor %}
+
     <div class="mt-4">
-      <a href="/" class="btn btn-primary">처음으로</a>
+      <!-- 점수 저장 및 랭킹 기능: 이름 입력 후 제출 -->
+      <form method="POST" action="/save_score" class="mb-3">
+        <div class="mb-3">
+          <input type="text" name="username" class="form-control" placeholder="이름 입력" required>
+        </div>
+        <button type="submit" class="btn btn-warning w-100">점수 저장 및 랭킹 확인</button>
+      </form>
+      <a href="/" class="btn btn-primary w-100">처음으로</a>
     </div>
   </div>
 </body>
