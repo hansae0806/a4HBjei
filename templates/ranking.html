@@ -1,0 +1,93 @@
+<!-- ranking.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>랭킹</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .btn-back {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn-back:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>퀴즈 랭킹</h1>
+</header>
+
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th>순위</th>
+                <th>사용자 이름</th>
+                <th>주제</th>
+                <th>레벨</th>
+                <th>점수</th>
+                <th>총 문제 수</th>
+                <th>등록 시간</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for index, entry in enumerate(entries) %}
+            <tr>
+                <td>{{ index + 1 }}</td>
+                <td>{{ entry.username }}</td>
+                <td>{{ entry.topic }}</td>
+                <td>{{ entry.level }}</td>
+                <td>{{ entry.score }}</td>
+                <td>{{ entry.total }}</td>
+                <td>{{ entry.time }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<a href="{{ url_for('index') }}" class="btn-back">홈으로 돌아가기</a>
+
+</body>
+</html>
