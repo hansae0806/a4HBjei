@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>퀴즈 완료!</title>
+  <title>Quiz Complete!</title>
   <!-- Bootstrap CSS 추가 -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
   <style>
@@ -27,23 +27,23 @@
 </head>
 <body>
   <div class="result-container">
-    <h2 class="mb-4">퀴즈 완료!</h2>
-    <p class="mb-4">점수: {{ score }} / {{ total }}</p>
+    <h2 class="mb-4">Quiz Complete!</h2>
+    <p class="mb-4">Score: {{ score }} / {{ total }}</p>
 
-    <h3>맞은 문제</h3>
+    <h3>Correct answer</h3>
     {% for a in correct %}
       <div class="result-item bg-success text-white">
         <p><strong>Q:</strong> {{ a.question }}<br>
-        <strong>정답:</strong> {{ a.correct_answer }}</p>
+        <strong>Correct answer:</strong> {{ a.correct_answer }}</p>
       </div>
     {% endfor %}
 
-    <h3>틀린 문제</h3>
+    <h3>Wrong answer</h3>
     {% for a in wrong %}
       <div class="result-item bg-danger text-white">
         <p><strong>Q:</strong> {{ a.question }}<br>
-        <strong>선택:</strong> {{ a.user_answer }}<br>
-        <strong>정답:</strong> {{ a.correct_answer }}</p>
+        <strong>Your answer:</strong> {{ a.user_answer }}<br>
+        <strong>Correct answer:</strong> {{ a.correct_answer }}</p>
       </div>
     {% endfor %}
 
@@ -51,11 +51,11 @@
       <!-- 점수 저장 및 랭킹 기능: 이름 입력 후 제출 -->
       <form method="POST" action="/save_score" class="mb-3">
         <div class="mb-3">
-          <input type="text" name="username" class="form-control" placeholder="이름 입력" required>
+          <input type="text" name="username" class="form-control" placeholder="Enter Name" required>
         </div>
-        <button type="submit" class="btn btn-warning w-100">점수 저장 및 랭킹 확인</button>
+        <button type="submit" class="btn btn-warning w-100">Save Score and Check Rank</button>
       </form>
-      <a href="/" class="btn btn-primary w-100">처음으로</a>
+      <a href="/" class="btn btn-primary w-100">Back</a>
     </div>
   </div>
 </body>
