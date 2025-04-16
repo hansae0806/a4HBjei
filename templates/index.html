@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>영어 퀴즈 시작</title>
+  <title>Activities for Hoobong teacher in JEI middle school</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
@@ -40,10 +40,10 @@
 </head>
 <body>
   <div class="quiz-container">
-    <h2 class="mb-4 text-center">영어 퀴즈 시작</h2>
+    <h2 class="mb-4 text-center">Start English Quiz</h2>
     <form method="POST" action="/start">
       <div class="mb-3">
-        <label class="form-label">주제 선택:</label><br>
+        <label class="form-label">Select Topic:</label><br>
         <div class="form-check form-check-inline">
           <input class="form-check-input" type="radio" name="topic" id="grammar" value="grammar" checked>
           <label class="form-check-label" for="grammar">Grammar</label>
@@ -58,7 +58,7 @@
         </div>
       </div>
       <div class="mb-3" id="sub-options">
-        <label class="form-label" id="sub-category-label">서브 카테고리 선택:</label><br>
+        <label class="form-label" id="sub-category-label">Select Sub Topic:</label><br>
         <div class="form-check form-check-inline">
           <input class="form-check-input" type="radio" name="sub_category" id="sub1" value="1" checked>
           <label class="form-check-label sub-option" for="sub1">Topic 1</label>
@@ -73,7 +73,7 @@
         </div>
       </div>
       <div class="mb-3">
-        <label class="form-label">난이도 선택:</label><br>
+        <label class="form-label">Select Difficulty:</label><br>
         <div class="form-check form-check-inline">
           <input class="form-check-input" type="radio" name="level" id="easy" value="easy" checked>
           <label class="form-check-label" for="easy">Easy</label>
@@ -87,7 +87,7 @@
           <label class="form-check-label" for="hard">Hard</label>
         </div>
       </div>
-      <button type="submit" class="btn btn-primary w-100">퀴즈 시작</button>
+      <button type="submit" class="btn btn-primary w-100">Start Quiz</button>
     </form>
   </div>
 </body>
