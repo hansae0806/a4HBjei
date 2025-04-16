@@ -23,7 +23,7 @@
       var selectedTopic = document.querySelector('input[name="topic"]:checked').value;
       var subLabel = document.getElementById("sub-category-label");
       var subOptions = document.querySelectorAll('label.sub-option');
-      subLabel.innerText = selectedTopic.charAt(0).toUpperCase() + selectedTopic.slice(1) + " 서브 카테고리 선택:";
+      subLabel.innerText = selectedTopic.charAt(0).toUpperCase() + selectedTopic.slice(1) + " Select Sub Category:";
       subOptions.forEach(function(label, index) {
         label.innerText = selectedTopic.charAt(0).toUpperCase() + " " + (index + 1);
       });
