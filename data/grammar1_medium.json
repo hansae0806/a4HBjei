@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Choose the correct sentence.",
+    "options": ["She can sings well.", "She can sing well.", "She can singing well."],
+    "answer": "She can sing well."
+  },
+  {
+    "question": "Which one is correct?",
+    "options": ["I don't like coffee, neither do I.", "I don't like coffee, I neither do.", "I neither do like coffee."],
+    "answer": "I don't like coffee, neither do I."
+  },
+  {
+    "question": "Complete the sentence: If I had known, I _____ helped you.",
+    "options": ["will", "would", "would have"],
+    "answer": "would have"
+  },
+  {
+    "question": "Which sentence is in the passive voice?",
+    "options": ["The teacher teaches English.", "English is taught by the teacher.", "The teacher is teaching English."],
+    "answer": "English is taught by the teacher."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": ["He told me he will come tomorrow.", "He told me he would come tomorrow.", "He told me he come tomorrow."],
+    "answer": "He told me he would come tomorrow."
+  },
+  {
+    "question": "Which sentence is grammatically correct?",
+    "options": ["She has been working here since five years.", "She has been working here for five years.", "She has been working here five years."],
+    "answer": "She has been working here for five years."
+  },
+  {
+    "question": "Choose the correct form of the verb.",
+    "options": ["She has ran the marathon.", "She has run the marathon.", "She has running the marathon."],
+    "answer": "She has run the marathon."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": ["I wish I have a bigger house.", "I wish I had a bigger house.", "I wish I will have a bigger house."],
+    "answer": "I wish I had a bigger house."
+  },
+  {
+    "question": "Which one is the correct comparative form?",
+    "options": ["This car is more faster than that one.", "This car is more fast than that one.", "This car is faster than that one."],
+    "answer": "This car is faster than that one."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": ["Neither he nor his friends is coming.", "Neither he nor his friends are coming.", "Neither he or his friends is coming."],
+    "answer": "Neither he nor his friends are coming."
+  },
+  {
+    "question": "Choose the correct sentence with proper tense.",
+    "options": ["They have went to the market.", "They have gone to the market.", "They have going to the market."],
+    "answer": "They have gone to the market."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": ["I have seen that movie already.", "I seen that movie already.", "I have saw that movie already."],
+    "answer": "I have seen that movie already."
+  },
+  {
+    "question": "Which sentence correctly uses the future perfect tense?",
+    "options": ["By next year, she will have graduated.", "By next year, she will graduate.", "By next year, she has graduated."],
+    "answer": "By next year, she will have graduated."
+  },
+  {
+    "question": "Choose the correct sentence with a conditional clause.",
+    "options": ["If it rains, we will cancel the picnic.", "If it rains, we cancel the picnic.", "If it rains, we canceled the picnic."],
+    "answer": "If it rains, we will cancel the picnic."
+  },
+  {
+    "question": "Which sentence uses the correct form of the modal verb?",
+    "options": ["You must to finish your work.", "You must finish your work.", "You must finishing your work."],
+    "answer": "You must finish your work."
+  },
+  {
+    "question": "Complete the sentence: He behaves as if he _____ the boss.",
+    "options": ["was", "were", "is"],
+    "answer": "were"
+  },
+  {
+    "question": "Choose the sentence with correct subject-verb agreement.",
+    "options": ["Each of the boys have a uniform.", "Each of the boys has a uniform.", "Each of the boys are having a uniform."],
+    "answer": "Each of the boys has a uniform."
+  },
+  {
+    "question": "Which sentence is correctly punctuated?",
+    "options": ["After the show, we went out for dinner.", "After the show we went out for dinner.", "After, the show we went out for dinner."],
+    "answer": "After the show, we went out for dinner."
+  },
+  {
+    "question": "Complete the sentence: Neither the teacher nor the students _____ ready for the test.",
+    "options": ["is", "are", "were"],
+    "answer": "are"
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": ["I can't hardly wait for the concert.", "I can hardly wait for the concert.", "I cannot hardly wait for the concert."],
+    "answer": "I can hardly wait for the concert."
+  },
+  {
+    "question": "Which sentence uses an adverb correctly?",
+    "options": ["She sings beautiful.", "She sings beautifully.", "She sings beauty."],
+    "answer": "She sings beautifully."
+  },
+  {
+    "question": "Complete the sentence: Hardly _____ I entered the room when the phone rang.",
+    "options": ["had", "have", "did"],
+    "answer": "had"
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": ["I look forward to meet you.", "I look forward to meeting you.", "I look forward for meeting you."],
+    "answer": "I look forward to meeting you."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": ["Between you and I, this is a secret.", "Between you and me, this is a secret.", "Between you and myself, this is a secret."],
+    "answer": "Between you and me, this is a secret."
+  },
+  {
+    "question": "Complete the sentence: No sooner _____ he arrived than it started raining.",
+    "options": ["had", "has", "did"],
+    "answer": "had"
+  },
+  {
+    "question": "Choose the correct sentence with indirect speech.",
+    "options": ["He said that he is coming.", "He said that he was coming.", "He said that he coming."],
+    "answer": "He said that he was coming."
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": ["They are planning to visit the museum next week.", "They are planning visiting the museum next week.", "They is planning to visit the museum next week."],
+    "answer": "They are planning to visit the museum next week."
+  },
+  {
+    "question": "Complete the sentence: By the time you arrive, we _____ dinner.",
+    "options": ["will have finished", "will finish", "have finished"],
+    "answer": "will have finished"
+  },
+  {
+    "question": "Choose the sentence that uses a gerund correctly.",
+    "options": ["Swimming is fun.", "To swim is fun.", "Swim is fun."],
+    "answer": "Swimming is fun."
+  },
+  {
+    "question": "Which sentence correctly uses an infinitive phrase?",
+    "options": ["She wants to travel.", "She wants travel.", "She wants traveling."],
+    "answer": "She wants to travel."
+  }
+]

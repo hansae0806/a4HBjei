@@ -1,0 +1,72 @@
+[
+  {
+    "question": "What does 'to rain on someone's parade' mean?",
+    "options": ["to spoil someone's plans", "to celebrate with someone", "to ignore someone"],
+    "answer": "to spoil someone's plans"
+  },
+  {
+    "question": "Meaning of 'to steal someone's thunder'?",
+    "options": ["to take credit for someone else's idea", "to compliment someone", "to distract someone"],
+    "answer": "to take credit for someone else's idea"
+  },
+  {
+    "question": "What does 'to throw caution to the wind' mean?",
+    "options": ["to take a risk", "to be overly cautious", "to plan meticulously"],
+    "answer": "to take a risk"
+  },
+  {
+    "question": "Meaning of 'to turn a blind eye'?",
+    "options": ["to ignore something", "to notice every detail", "to be vigilant"],
+    "answer": "to ignore something"
+  },
+  {
+    "question": "What does 'to water down' mean?",
+    "options": ["to weaken something", "to clarify something", "to purify something"],
+    "answer": "to weaken something"
+  },
+  {
+    "question": "Meaning of 'to wrap one's head around'?",
+    "options": ["to understand something difficult", "to forget something", "to ignore an issue"],
+    "answer": "to understand something difficult"
+  },
+  {
+    "question": "What does 'to run the gauntlet' mean?",
+    "options": ["to undergo a severe trial", "to run quickly", "to prepare extensively"],
+    "answer": "to undergo a severe trial"
+  },
+  {
+    "question": "Meaning of 'to hit the roof'?",
+    "options": ["to become very angry", "to repair a roof", "to leave abruptly"],
+    "answer": "to become very angry"
+  },
+  {
+    "question": "What does 'to put your foot in your mouth' mean?",
+    "options": ["to say something embarrassing", "to lose your balance", "to speak eloquently"],
+    "answer": "to say something embarrassing"
+  },
+  {
+    "question": "Meaning of 'to see eye to eye'?",
+    "options": ["to disagree completely", "to agree", "to be unaware"],
+    "answer": "to agree"
+  },
+  {
+    "question": "What does 'to sleep on it' mean?",
+    "options": ["to think about something overnight", "to fall asleep immediately", "to ignore an issue"],
+    "answer": "to think about something overnight"
+  },
+  {
+    "question": "Meaning of 'to stick to your guns'?",
+    "options": ["to change your mind easily", "to maintain your position", "to be flexible"],
+    "answer": "to maintain your position"
+  },
+  {
+    "question": "What does 'to pull someone’s leg' mean?",
+    "options": ["to joke with someone", "to physically pull someone", "to insult someone"],
+    "answer": "to joke with someone"
+  },
+  {
+    "question": "Meaning of 'to strike while the iron is hot'?",
+    "options": ["to act at the right moment", "to delay taking action", "to ignore an opportunity"],
+    "answer": "to act at the right moment"
+  }
+]

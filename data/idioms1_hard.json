@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What does 'burning the candle at both ends' mean?",
+    "options": ["working excessively", "taking it easy", "saving energy"],
+    "answer": "working excessively"
+  },
+  {
+    "question": "Meaning of 'a feather in one's cap'?",
+    "options": ["an achievement", "a heavy burden", "a lost opportunity"],
+    "answer": "an achievement"
+  },
+  {
+    "question": "What does 'to sweep something under the rug' mean?",
+    "options": ["to hide an issue", "to clean thoroughly", "to organize"],
+    "answer": "to hide an issue"
+  },
+  {
+    "question": "Meaning of 'to throw someone under the bus'?",
+    "options": ["to betray someone", "to support someone", "to ignore someone"],
+    "answer": "to betray someone"
+  },
+  {
+    "question": "What does 'to have a chip on one's shoulder' mean?",
+    "options": ["to be resentful", "to be cheerful", "to be indifferent"],
+    "answer": "to be resentful"
+  },
+  {
+    "question": "Meaning of 'to put the cart before the horse'?",
+    "options": ["to do things in the wrong order", "to be organized", "to plan efficiently"],
+    "answer": "to do things in the wrong order"
+  },
+  {
+    "question": "What does 'to be caught between a rock and a hard place' mean?",
+    "options": ["to be in a difficult situation", "to be well-prepared", "to be indecisive"],
+    "answer": "to be in a difficult situation"
+  },
+  {
+    "question": "Meaning of 'to take something with a grain of salt'?",
+    "options": ["to not take it too seriously", "to believe it completely", "to discard it"],
+    "answer": "to not take it too seriously"
+  },
+  {
+    "question": "What does 'to cry wolf' mean?",
+    "options": ["to raise a false alarm", "to speak truthfully", "to exaggerate"],
+    "answer": "to raise a false alarm"
+  },
+  {
+    "question": "Meaning of 'to bite the bullet'?",
+    "options": ["to face a difficult situation", "to avoid a challenge", "to hesitate"],
+    "answer": "to face a difficult situation"
+  },
+  {
+    "question": "What does 'kick the bucket' mean?",
+    "options": ["to die", "to celebrate", "to fail"],
+    "answer": "to die"
+  }
+]

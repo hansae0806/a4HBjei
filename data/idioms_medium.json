@@ -1,0 +1,182 @@
+[
+  {
+    "question": "What does 'a storm in a teacup' mean?",
+    "options": ["a small problem exaggerated", "a big problem", "a calming event"],
+    "answer": "a small problem exaggerated"
+  },
+  {
+    "question": "Meaning of 'the writing on the wall'?",
+    "options": ["a warning", "a sign of success", "a sign of happiness"],
+    "answer": "a warning"
+  },
+  {
+    "question": "What does 'a needle in a haystack' mean?",
+    "options": ["a very difficult task", "something easy", "something rare but easy to find"],
+    "answer": "a very difficult task"
+  },
+  {
+    "question": "Meaning of 'break the ice'?",
+    "options": ["to start a conversation", "to end a conversation", "to make a situation worse"],
+    "answer": "to start a conversation"
+  },
+  {
+    "question": "What does 'keep your fingers crossed' mean?",
+    "options": ["hope for good luck", "wish for bad luck", "act carelessly"],
+    "answer": "hope for good luck"
+  },
+  {
+    "question": "Meaning of 'a penny saved is a penny earned'?",
+    "options": ["saving money is important", "spending money is important", "earning money is effortless"],
+    "answer": "saving money is important"
+  },
+  {
+    "question": "What does 'cost an arm and a leg' mean?",
+    "options": ["very expensive", "very cheap", "reasonably priced"],
+    "answer": "very expensive"
+  },
+  {
+    "question": "Meaning of 'hit the nail on the head'?",
+    "options": ["be exactly right", "be vague", "be incorrect"],
+    "answer": "be exactly right"
+  },
+  {
+    "question": "What does 'under the weather' mean?",
+    "options": ["feeling sick", "feeling happy", "feeling energetic"],
+    "answer": "feeling sick"
+  },
+  {
+    "question": "Meaning of 'let the cat out of the bag'?",
+    "options": ["reveal a secret", "hide a secret", "release a pet"],
+    "answer": "reveal a secret"
+  },
+  {
+    "question": "What does 'barking up the wrong tree' mean?",
+    "options": ["pursuing the wrong course", "climbing a tree", "giving up"],
+    "answer": "pursuing the wrong course"
+  },
+  {
+    "question": "Meaning of 'back to the drawing board'?",
+    "options": ["start over", "finish the work", "stop working"],
+    "answer": "start over"
+  },
+  {
+    "question": "What does 'bite off more than you can chew' mean?",
+    "options": ["take on more than you can handle", "chew quickly", "eat too fast"],
+    "answer": "take on more than you can handle"
+  },
+  {
+    "question": "Meaning of 'cut corners'?",
+    "options": ["do something poorly to save time", "expend extra effort", "do something perfectly"],
+    "answer": "do something poorly to save time"
+  },
+  {
+    "question": "What does 'feel under the weather' mean?",
+    "options": ["feel ill", "feel great", "feel cold"],
+    "answer": "feel ill"
+  },
+  {
+    "question": "Meaning of 'hit the books'?",
+    "options": ["study intensely", "go out partying", "close a book"],
+    "answer": "study intensely"
+  },
+  {
+    "question": "What does 'in hot water' mean?",
+    "options": ["in trouble", "in a bathtub", "feeling warm"],
+    "answer": "in trouble"
+  },
+  {
+    "question": "Meaning of 'jump on the bandwagon'?",
+    "options": ["join a popular trend", "start a band", "leave quickly"],
+    "answer": "join a popular trend"
+  },
+  {
+    "question": "What does 'the ball is in your court' mean?",
+    "options": ["it's your turn to take action", "the ball is with someone else", "the game is over"],
+    "answer": "it's your turn to take action"
+  },
+  {
+    "question": "Meaning of 'miss the boat'?",
+    "options": ["miss an opportunity", "go boating", "ride a boat"],
+    "answer": "miss an opportunity"
+  },
+  {
+    "question": "What does 'once in a blue moon' mean?",
+    "options": ["rarely", "frequently", "always"],
+    "answer": "rarely"
+  },
+  {
+    "question": "Meaning of 'spill the beans'?",
+    "options": ["reveal a secret", "spill literally", "wash the beans"],
+    "answer": "reveal a secret"
+  },
+  {
+    "question": "What does 'take it with a grain of salt' mean?",
+    "options": ["be skeptical", "completely believe", "ignore completely"],
+    "answer": "be skeptical"
+  },
+  {
+    "question": "Meaning of 'the tip of the iceberg'?",
+    "options": ["a small visible part of a larger problem", "a piece of food", "the end of an iceberg"],
+    "answer": "a small visible part of a larger problem"
+  },
+  {
+    "question": "What does 'water under the bridge' mean?",
+    "options": ["past events that cannot be changed", "water flowing under a bridge", "a new beginning"],
+    "answer": "past events that cannot be changed"
+  },
+  {
+    "question": "Meaning of 'burn the midnight oil'?",
+    "options": ["work or study late into the night", "set oil on fire", "go to bed early"],
+    "answer": "work or study late into the night"
+  },
+  {
+    "question": "What does 'put all your eggs in one basket' mean?",
+    "options": ["risk everything on one venture", "collect eggs", "organize well"],
+    "answer": "risk everything on one venture"
+  },
+  {
+    "question": "Meaning of 'the early bird catches the worm'?",
+    "options": ["those who start early have an advantage", "birds are early", "worms are fast"],
+    "answer": "those who start early have an advantage"
+  },
+  {
+    "question": "What does 'burn bridges' mean?",
+    "options": ["destroy relationships irreparably", "light a campfire", "build bridges"],
+    "answer": "destroy relationships irreparably"
+  },
+  {
+    "question": "Meaning of 'speak of the devil'?",
+    "options": ["when someone appears unexpectedly while being talked about", "talk loudly", "discuss demons"],
+    "answer": "when someone appears unexpectedly while being talked about"
+  },
+  {
+    "question": "What does 'take the bull by the horns' mean?",
+    "options": ["confront a problem directly", "grab an animal", "avoid difficulties"],
+    "answer": "confront a problem directly"
+  },
+  {
+    "question": "Meaning of 'hit the sack'?",
+    "options": ["go to sleep", "strike a bag", "start a fight"],
+    "answer": "go to sleep"
+  },
+  {
+    "question": "What does 'get your act together' mean?",
+    "options": ["organize yourself", "perform in a show", "rehearse a play"],
+    "answer": "organize yourself"
+  },
+  {
+    "question": "Meaning of 'flip the bird'?",
+    "options": ["make an obscene gesture", "change direction", "share a secret"],
+    "answer": "make an obscene gesture"
+  },
+  {
+    "question": "What does 'keep your head up' mean?",
+    "options": ["stay positive", "keep your head straight", "look up"],
+    "answer": "stay positive"
+  },
+  {
+    "question": "Meaning of 'ride shotgun'?",
+    "options": ["sit in the front passenger seat", "drive a motorcycle", "ride a horse"],
+    "answer": "sit in the front passenger seat"
+  }
+]

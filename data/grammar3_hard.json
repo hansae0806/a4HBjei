@@ -1,0 +1,290 @@
+[
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "I regret wasting my time on that unproductive meeting.",
+      "I regret to waste my time on that unproductive meeting.",
+      "I regret waste my time on that unproductive meeting."
+    ],
+    "answer": "I regret wasting my time on that unproductive meeting."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "The teacher, irritated by the student's error, explained the concept again.",
+      "The teacher, being irritated by the student's error, explained the concept again.",
+      "The teacher, irritates by the student's error, explained the concept again."
+    ],
+    "answer": "The teacher, irritated by the student's error, explained the concept again."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Had they known about the traffic, they would have considered leaving later.",
+      "Had they known about the traffic, they would consider leaving later.",
+      "Had they known about the traffic, they considered leaving later."
+    ],
+    "answer": "Had they known about the traffic, they would have considered leaving later."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "If it rains tomorrow, the event will be canceled.",
+      "If it will rain tomorrow, the event will be canceled.",
+      "If it rained tomorrow, the event will be canceled."
+    ],
+    "answer": "If it rains tomorrow, the event will be canceled."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "As soon as he got home, he began preparing dinner.",
+      "As soon as he gets home, he began preparing dinner.",
+      "As soon as he had gotten home, he began preparing dinner."
+    ],
+    "answer": "As soon as he got home, he began preparing dinner."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "I would rather she told the truth directly.",
+      "I would rather she tell the truth directly.",
+      "I would rather she has told the truth directly."
+    ],
+    "answer": "I would rather she told the truth directly."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Hardly had he made the announcement than the crowd erupted in cheers.",
+      "Did he make the announcement than the crowd erupted in cheers.",
+      "Has he made the announcement than the crowd erupted in cheers."
+    ],
+    "answer": "Hardly had he made the announcement than the crowd erupted in cheers."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "The report, conducted by the research team, received critical acclaim.",
+      "The report conducted by the research team, received critical acclaim.",
+      "The report, conducted by the research team received critical acclaim."
+    ],
+    "answer": "The report, conducted by the research team, received critical acclaim."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "I wish I had seized that opportunity to study abroad.",
+      "I wish I seized that opportunity to study abroad.",
+      "I wish I have seized that opportunity to study abroad."
+    ],
+    "answer": "I wish I had seized that opportunity to study abroad."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Not until the package was delivered did she realize it was missing.",
+      "Not until the package delivered did she realize it was missing.",
+      "Not until the package had delivered did she realize it was missing."
+    ],
+    "answer": "Not until the package was delivered did she realize it was missing."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "The more you exercise, the better you feel.",
+      "The more you exercise, the best you feel.",
+      "The more you exercise, the more better you feel."
+    ],
+    "answer": "The more you exercise, the better you feel."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "She speaks as though she had been living in Paris.",
+      "She speaks as though she has been living in Paris.",
+      "She speaks as though she was living in Paris."
+    ],
+    "answer": "She speaks as though she had been living in Paris."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "I wish you were more careful while driving.",
+      "I wish you are more careful while driving.",
+      "I wish you was more careful while driving."
+    ],
+    "answer": "I wish you were more careful while driving."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Had I known about the discount, I would have bought more items.",
+      "Had I known about the discount, I bought more items.",
+      "Had I known about the discount, I would buy more items."
+    ],
+    "answer": "Had I known about the discount, I would have bought more items."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "She insisted that he be at the meeting on time.",
+      "She insisted that he is at the meeting on time.",
+      "She insisted that he was at the meeting on time."
+    ],
+    "answer": "She insisted that he be at the meeting on time."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "I don't believe that he has told the truth about the accident.",
+      "I don't believe that he told the truth about the accident.",
+      "I don't believe that he had told the truth about the accident."
+    ],
+    "answer": "I don't believe that he has told the truth about the accident."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "No sooner had they heard the news than the market crashed.",
+      "No sooner did they hear the news than the market crashed.",
+      "No sooner have they heard the news than the market crashed."
+    ],
+    "answer": "No sooner had they heard the news than the market crashed."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "The actor, recognized by many, received an award.",
+      "The actor, recognized, received an award.",
+      "The actor, who recognized by many, received an award."
+    ],
+    "answer": "The actor, recognized by many, received an award."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Little did they know that the plan would turn out unsuccessful.",
+      "Little did they know that the plan turned out unsuccessful.",
+      "Little did they know that the plan would turn out."
+    ],
+    "answer": "Little did they know that the plan would turn out unsuccessful."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "She demanded that he submit the documents by noon.",
+      "She demanded that he submits the documents by noon.",
+      "She demanded that he submitted the documents by noon."
+    ],
+    "answer": "She demanded that he submit the documents by noon."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Not until after the class had finished did we understand the lesson.",
+      "Not until after the class finished did we understand the lesson.",
+      "Not until after the class was finished did we understand the lesson."
+    ],
+    "answer": "Not until after the class had finished did we understand the lesson."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "He behaves as if he knew the rules.",
+      "He behaves as if he knows the rules.",
+      "He behaves as if he has known the rules."
+    ],
+    "answer": "He behaves as if he knew the rules."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "She would rather go to an Italian restaurant tonight.",
+      "She would rather went to an Italian restaurant tonight.",
+      "She would rather have gone to an Italian restaurant tonight."
+    ],
+    "answer": "She would rather go to an Italian restaurant tonight."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "If I were you, I wouldn't worry about it.",
+      "If I was you, I wouldn't worry about it.",
+      "If I am you, I wouldn't worry about it."
+    ],
+    "answer": "If I were you, I wouldn't worry about it."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "I wish I had paid more attention during lectures.",
+      "I wish I paid more attention during lectures.",
+      "I wish I have paid more attention during lectures."
+    ],
+    "answer": "I wish I had paid more attention during lectures."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "The cake, which was delicious and freshly baked by my grandmother, was a hit at the party.",
+      "The cake that was delicious and freshly baked by my grandmother was a hit at the party.",
+      "The cake who was delicious and freshly baked by my grandmother was a hit at the party."
+    ],
+    "answer": "The cake, which was delicious and freshly baked by my grandmother, was a hit at the party."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Heeding her advice, he avoided the risky investment.",
+      "Following her advice, he avoided the risky investment.",
+      "Listening her advice, he avoided the risky investment."
+    ],
+    "answer": "Heeding her advice, he avoided the risky investment."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Not until the sun had risen did the cold disappear.",
+      "Not until the sun rose did the cold disappear.",
+      "Not until the sun has risen did the cold disappear."
+    ],
+    "answer": "Not until the sun had risen did the cold disappear."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "If you are careful, you might get injured.",
+      "If you were careful, you might get injured.",
+      "If you be careful, you might get injured."
+    ],
+    "answer": "If you are careful, you might get injured."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "I regret that I didn't take a chance to meet him.",
+      "I regret that I haven't taken a chance to meet him.",
+      "I regret that I hadn't taken a chance to meet him."
+    ],
+    "answer": "I regret that I didn't take a chance to meet him."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "She speaks as though she had known the city for years.",
+      "She speaks as though she knows the city for years.",
+      "She speaks as though she has known the city for years."
+    ],
+    "answer": "She speaks as though she had known the city for years."
+  },
+  {
+    "question": "Choose the correct sentence.",
+    "options": [
+      "It is important that every candidate bring their identity documents.",
+      "It is important that every candidate brings their identity documents.",
+      "It is important that every candidate bringing their identity documents."
+    ],
+    "answer": "It is important that every candidate bring their identity documents."
+  }
+]

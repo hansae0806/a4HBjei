@@ -1,0 +1,187 @@
+[
+  {
+    "question": "Meaning of 'lament'?",
+    "options": ["celebrate", "mourn", "ignore"],
+    "answer": "mourn"
+  },
+  {
+    "question": "What does 'maverick' mean?",
+    "options": ["conformist", "nonconformist", "traditionalist"],
+    "answer": "nonconformist"
+  },
+  {
+    "question": "Meaning of 'nonchalant'?",
+    "options": ["nervous", "indifferent", "anxious"],
+    "answer": "indifferent"
+  },
+  {
+    "question": "What does 'obstinate' mean?",
+    "options": ["flexible", "stubborn", "open"],
+    "answer": "stubborn"
+  },
+  {
+    "question": "Meaning of 'ostentatious'?",
+    "options": ["modest", "flashy", "simple"],
+    "answer": "flashy"
+  },
+  {
+    "question": "What does 'paradox' mean?",
+    "options": ["consistency", "contradiction", "agreement"],
+    "answer": "contradiction"
+  },
+  {
+    "question": "Meaning of 'quandary'?",
+    "options": ["certainty", "dilemma", "decision"],
+    "answer": "dilemma"
+  },
+  {
+    "question": "What does 'quell' mean?",
+    "options": ["incite", "suppress", "encourage"],
+    "answer": "suppress"
+  },
+  {
+    "question": "Meaning of 'rancor'?",
+    "options": ["affection", "bitterness", "joy"],
+    "answer": "bitterness"
+  },
+  {
+    "question": "What does 'reclusive' mean?",
+    "options": ["sociable", "solitary", "gregarious"],
+    "answer": "solitary"
+  },
+  {
+    "question": "Meaning of 'resilient'?",
+    "options": ["fragile", "able to recover quickly", "inflexible"],
+    "answer": "able to recover quickly"
+  },
+  {
+    "question": "What does 'serendipity' mean?",
+    "options": ["bad luck", "unexpected good fortune", "inevitable result"],
+    "answer": "unexpected good fortune"
+  },
+  {
+    "question": "Meaning of 'spurious'?",
+    "options": ["genuine", "false", "authentic"],
+    "answer": "false"
+  },
+  {
+    "question": "What does 'stagnant' mean?",
+    "options": ["fresh", "inactive", "dynamic"],
+    "answer": "inactive"
+  },
+  {
+    "question": "Meaning of 'stymie'?",
+    "options": ["assist", "hinder", "expedite"],
+    "answer": "hinder"
+  },
+  {
+    "question": "What does 'stringent' mean?",
+    "options": ["lenient", "strict", "relaxed"],
+    "answer": "strict"
+  },
+  {
+    "question": "Meaning of 'subversive'?",
+    "options": ["supportive", "destabilizing", "encouraging"],
+    "answer": "destabilizing"
+  },
+  {
+    "question": "What does 'sublime' mean?",
+    "options": ["ordinary", "magnificent", "mediocre"],
+    "answer": "magnificent"
+  },
+  {
+    "question": "Meaning of 'truculent'?",
+    "options": ["friendly", "aggressive", "cooperative"],
+    "answer": "aggressive"
+  },
+  {
+    "question": "What does 'venerable' mean?",
+    "options": ["disrespected", "respected", "ignored"],
+    "answer": "respected"
+  },
+  {
+    "question": "Meaning of 'verbose'?",
+    "options": ["concise", "wordy", "brief"],
+    "answer": "wordy"
+  },
+  {
+    "question": "What does 'vicarious' mean?",
+    "options": ["direct", "indirect", "personal"],
+    "answer": "indirect"
+  },
+  {
+    "question": "Meaning of 'wary'?",
+    "options": ["trusting", "cautious", "reckless"],
+    "answer": "cautious"
+  },
+  {
+    "question": "What does 'zealous' mean?",
+    "options": ["indifferent", "passionate", "apathetic"],
+    "answer": "passionate"
+  },
+  {
+    "question": "Meaning of 'abstruse'?",
+    "options": ["clear", "obscure", "simple"],
+    "answer": "obscure"
+  },
+  {
+    "question": "What does 'acerbic' mean?",
+    "options": ["sweet", "bitter", "mild"],
+    "answer": "bitter"
+  },
+  {
+    "question": "Meaning of 'animosity'?",
+    "options": ["friendship", "hostility", "indifference"],
+    "answer": "hostility"
+  },
+  {
+    "question": "What does 'arcane' mean?",
+    "options": ["common", "mysterious", "obvious"],
+    "answer": "mysterious"
+  },
+  {
+    "question": "Meaning of 'avarice'?",
+    "options": ["generosity", "greed", "kindness"],
+    "answer": "greed"
+  },
+  {
+    "question": "What does 'bellicose' mean?",
+    "options": ["peaceful", "aggressive", "calm"],
+    "answer": "aggressive"
+  },
+  {
+    "question": "Meaning of 'deference'?",
+    "options": ["disrespect", "respect", "indifference"],
+    "answer": "respect"
+  },
+  {
+    "question": "What does 'disparate' mean?",
+    "options": ["similar", "different", "identical"],
+    "answer": "different"
+  },
+  {
+    "question": "Meaning of 'enervate'?",
+    "options": ["energize", "weaken", "strengthen"],
+    "answer": "weaken"
+  },
+  {
+    "question": "What does 'exacerbate' mean?",
+    "options": ["alleviate", "worsen", "improve"],
+    "answer": "worsen"
+  },
+  {
+    "question": "Meaning of 'fortitude'?",
+    "options": ["weakness", "courage", "fear"],
+    "answer": "courage"
+  },
+  {
+    "question": "What does 'mollify' mean?",
+    "options": ["provoke", "calm", "anger"],
+    "answer": "calm"
+  },
+  {
+    "question": "Meaning of 'nebulous'?",
+    "options": ["clear", "vague", "definite"],
+    "answer": "vague"
+  }
+]
