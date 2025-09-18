@@ -7,7 +7,7 @@ export default async function handler(req, res) {
       return res.status(405).json({ error: "Method not allowed" });
     }
 
-    // Vercel Serverless에서 req.body 직접 파싱
+    // Vercel Serverless에서 body 직접 파싱
     const body = req.body && Object.keys(req.body).length > 0
       ? req.body
       : await new Promise((resolve, reject) => {
