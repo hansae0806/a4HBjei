@@ -1,5 +1,16 @@
 {
   "name": "my-project",
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    // 실제 필요한 패키지 추가
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "vercel": "^28.0.0"
+  }
 }
