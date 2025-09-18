@@ -1,13 +1,10 @@
 {
   "functions": {
     "api/*.mjs": {
-      "runtime": "nodejs18.x"
+      "runtime": "nodejs18.x",
+      "includeFiles": "data/**"
     }
   },
-  "builds": [
-    { "src": "api/*.mjs", "use": "@vercel/node" }
-  ],
-  "includeFiles": "data/**",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
